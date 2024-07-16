@@ -1,5 +1,8 @@
 /* eslint-disable no-case-declarations */
-import { CHANGE_DARK,CHANGE_LANG, DATA_FETCH } from "../actions/actions";
+import { data } from "../../data";
+import { CHANGE_DARK,CHANGE_DATA,CHANGE_LANG } from "../actions/actions";
+
+
 
 const localStorageWrite = (key,data) => {
     localStorage.setItem(key,JSON.stringify(data));
@@ -16,10 +19,12 @@ const localStorageRead = (key,defaultValue) => {
 
 
 
+
+
 const inititalState = {
-    info: {},
+    info: data['tr'],
     mode: localStorageRead('mode',true),
-    lang: localStorageRead('lang','tr')
+    lang: localStorageRead('lang','eng')
 }
 
 export const reducer = (state = inititalState, action) => {
@@ -39,10 +44,10 @@ export const reducer = (state = inititalState, action) => {
                 ...state,
                 lang:newLang,
             }
-        case DATA_FETCH:
+        case CHANGE_DATA:
             return {
                 ...state,
-                info: action.payload
+                info: data[state.lang]
             };
         default:
             return state;

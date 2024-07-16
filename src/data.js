@@ -203,9 +203,9 @@ export const data = {
             dark: "LIGHT MODE"
         },
         header: {
-            bir: "Skills",
-            iki: "Projects",
-            üç: "Hire me",
+            ytkn: "Skills",
+            proj: "Projects",
+            beni: "Hire me",
         },
         hero: {
             head: "Creative thinker Minimalism lover",
