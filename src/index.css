@@ -4,7 +4,7 @@
 
 body {
   width: 100vw; 
-  max-width: 1680px;
+  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
   height: 100%;
@@ -15,17 +15,7 @@ body {
   min-height: 100vh;
 }
 
-.formalanı {
-  @apply border-solid border-[1px] rounded-md lg:text-lg md:text-sm font-Inter font-medium xs:py-1 xs:px-4 xs:text-xs  dark:text-white dark:border-btn-ş dark:bg-btn-bcg text-purple2 border-borderC
-}
 
-.formlabel {
-  @apply font-Inter md:text-2xl font-medium text-left sm:text-lg xs:text-base dark:text-t-lilac text-purple
-}
-
-.formdiv {
-  @apply flex flex-col text-left dark:bg-d-body bg-white gap-4
-}
 
 .prbutton {
   @apply border-solid border-[1px] rounded-md lg:text-lg md:text-sm font-Inter font-medium md:py-1 md:px-4 xs:text-xs xs:px-2 xs:py-0 dark:text-ş dark:border-btn-ş dark:bg-btn-bcg text-purple2 border-borderC 

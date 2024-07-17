@@ -1,9 +1,8 @@
 
 
 import './App.css'
-import { useEffect, useState } from 'react'
+import { useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Route,Switch } from 'react-router-dom'
 import HireMe from './Roots/MainPage'
 
 
@@ -25,11 +24,10 @@ function App() {
 
 
   return (
-    <Switch>
-      <Route exact path = '/'>
-        <HireMe/>
-      </Route>
-    </Switch>
+    <div>
+      <HireMe/>
+
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 /* eslint-disable no-case-declarations */
 import { data } from "../../data";
-import { CHANGE_DARK,CHANGE_DATA,CHANGE_LANG } from "../actions/actions";
+import { CHANGE_DARK,CHANGE_LANG} from "../actions/actions";
 
 
 
@@ -16,9 +16,6 @@ const localStorageRead = (key,defaultValue) => {
     }
     return localValue;
 }
-
-
-
 
 
 const inititalState = {
@@ -40,15 +37,12 @@ export const reducer = (state = inititalState, action) => {
         case CHANGE_LANG:
             const newLang = state.lang === 'tr' ? 'eng' : 'tr';
             localStorageWrite('lang',newLang);
+            const newInfo = data[newLang]
             return {
                 ...state,
                 lang:newLang,
+                info:newInfo
             }
-        case CHANGE_DATA:
-            return {
-                ...state,
-                info: data[state.lang]
-            };
         default:
             return state;
     }

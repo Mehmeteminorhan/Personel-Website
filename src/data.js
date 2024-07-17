@@ -12,7 +12,7 @@ export const data = {
         },
         hero: {
             head: "Yaratıcı düşünen, Minimalizm aşığı",
-            desc: "Selam ben Şevval, full-stack yazılımcıyım. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturarak harika kullanıcı deneyimleri sunacak bir Geliştirici arıyorsanız, doğru adrestesiniz.",
+            desc: "Selam ben Mehmet, full-stack yazılımcıyım. Harika kullanıcı deneyimleri sunacak bir geliştirici arıyorsanız doğru adrestesiniz.",
             button: "Beni işe al"
         },
         skills: {
@@ -28,22 +28,22 @@ export const data = {
             b2: "Adres:",
             b3: "Eğitim:",
             b4: "Tercih Ettiği Rol:",
-            c1: "05.02.1998",
-            c2: "İstanbul",
-            c3: "Boğaziçi Üni., Ekonomi 2024",
-            c4: "Full Stack",
+            c1: "28.11.1999",
+            c2: "Kayseri",
+            c3: "Yıldız Teknik Üniv., MBG 2021",
+            c4: "Full Stack Developer",
             h22: "Ben kimim?",
-            des1: "Selam! Detaylara meraklı, verimli ve ölçeklenebilir web uygulamaları yaratma arzusuna sahip, tutkulu bir yazılımcıyım. Hem ön uç hem de arka uç geliştirme konusunda deneyimli, fikirlerini kod aracılığıyla hayata geçirmeyi seven biriyim.",
-            des2: "Yalnızca işe yarayan değil aynı zamanda temiz ve bakımı kolay olan kod yazmaya inanıyorum. En iyi uygulamaları takip etmeye çalışıyorum ve her zaman gelecekteki kendimin ve ekip arkadaşlarımın bana teşekkür edeceği kodlar yazmayı hedefliyorum!"
+            des1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+            des2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         },
         projects: {
             head: "Projeler",
-            p1: "IMDB Filmleri",
+            p1: "NegativeRNA",
             p2: "Pizza",
-            p3: "Grid Game",
-            c1: "Dilediğiniz Filmleri datadan çeken, favorilere ekleyen, izlediklerinizi silebileceğiniz, IMDB eklentili film uygulaması. Redux, React, axios ve daha bir çok farklı kütüphane ile yaratıldı.",
+            p3: "Film Arşivi",
+            c1: "Negatif veri yaratma süreçlerinde kullanılmak üzere geliştirilen araç. Makine Öğrenmesi, R, python ve daha bir çok farklı kütüphane ile yaratıldı.",
             c2: "Acıkan herkesin uğraması gereken tek site, yemek yemek hiç bu kadar hızlı ve kolay olmamıştı! React ve bootstrap kullanılarak tasarlandı.",
-            c3: "Kullanıcılarınızın oynamasına olanak tanıyan basit, özelleştirilebilir, minimum kurulumlu bir oyun. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
+            c3: "Film listelerinin güncellemesi yayına alınması üzerine çalışan bir siste. React, bootstrap ve Redux thunk ile geliştirilmiştir.              ",
             site: "Siteyi Görüntüle"
         },
         footer: {
@@ -82,120 +82,6 @@ export const data = {
                 description:"Figma, macOS ve Windows için masaüstü uygulamaları tarafından etkinleştirilen ek çevrimdışı özelliklerle, web tabanlı bir vektör grafik düzenleyici ve prototip oluşturma aracıdır."
             }
         ],
-        Pprojects: [
-            {
-                name:"Pizza",
-                img:"/pizza.png",
-                description:"Acıkan herkesin uğraması gereken tek site, yemek yemek hiç bu kadar hızlı ve kolay olmamıştı! React ve bootstrap kullanılarak tasarlandı.",
-                link1: "https://github.com/sevvalaksoy/S7PizzaChallenge",
-                link2: "https://s7-pizza-challenge.vercel.app/",
-                id: 0
-            },
-            {
-                name:"Şükran Listesi",
-                img:"/gratitude.png",
-                description:"Gün içerisinde minnet duyduğumuz şeyleri yazmak için düzenlenmiş özel uygulama. Dilediğiniz gibi not ekleyebilir ve minnet duygunuzu taze, kendinizi huzurlu tutabilirsiniz.",
-                link2: "https://s10g5.vercel.app/",
-                id: 1
-            },
-            {
-                name: "IMDB Filmleri",
-                img: "/proje2.png",
-                description:"Dilediğiniz Filmleri datadan çeken, favorilere ekleyen, izlediklerinizi silebileceğiniz, IMDB eklentili film uygulaması. Redux, React, axios ve daha bir çok farklı kütüphane ile yaratıldı.",
-                link1: "https://github.com/sevvalaksoy/fsweb-s10g2-redux-filmler-solution",
-                link2: "https://fsweb-s10g2-redux-filmler-solution-kohl.vercel.app/movies",
-                id: 2
-            },
-            {
-                name:"Grid Oyunu",
-                img:"/proje3.png",
-                description:"Kullanıcılarınızın oynamasına olanak tanıyan basit, özelleştirilebilir, minimum kurulumlu bir oyun. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
-                link1: "https://github.com/sevvalaksoy/FSWeb-S9-Sprint-Challenge-solution",
-                link2: "https://fsweb-s9-sprint-challenge-solution-1-p9nc.onrender.com/",
-                id: 3
-            },
-            {
-                name:"Film Listesi",
-                img:"/proje1.png",
-                description:"İçerisinde gelmiş geçmiş en iyi filmlerden olan tam 20 filmin listelendiği kullanışlı film izleme listesi. Dilediğiniz zaman filmi favorilerinize ekleyebilir, izlediklerinizi ise çıkarabilirisiniz.",
-                link1: "https://github.com/sevvalaksoy/fsweb-s10g3-redux-watchlist-solution",
-                link2: "https://fsweb-s10g3-redux-watchlist-solution-sand.vercel.app/",
-                id: 4
-            },
-            {
-                name:"Kripto Sayacı",
-                img:"/cripto.png",
-                description:"21.yüzyılın en önemli birimlerinin takip edildiği, saniyelik güncellendiği bir kripto sayacı. Finansal işlemlerinizi yapmak için izlemeniz gereken tek uygulama.",
-                link1: "https://github.com/sevvalaksoy/sp9g3s2",
-                link2: "https://sp9g3s2.vercel.app/",
-                id: 5,
-            },
-            {
-                name:"Yapılacaklar Listesi",
-                img:"/todo.png",
-                description:"Kağıt kalem bulamayanlar için düzenlenmiş yapılacaklar listesi! İstediğiniz gibi görev ekleyebilir, onlara bir teslim süresi atayabilir, eklediğiniz isimlere göre görev paylaşımı yaptırabilirsiniz. Takım içi ya da bireysel görevlerde en kullanışlı uygulamalardan.",
-                link1: "https://github.com/sevvalaksoy/s9g2",
-                link2: "https://s9g2.vercel.app/",
-                id: 6,
-            },
-            {
-                name:"İletişim Formu",
-                img:"/contact.png",
-                description:"Form elemanlarının detaylı kullanıldığı bir iletişim formu. Girilen datanın istenen içeriğe uygunluğu test eden ve o şekilde gönderilmesine izin veren websitesi.",
-                link1: "https://github.com/sevvalaksoy/s9g4",
-                link2: "https://s9g4.vercel.app/",
-                id: 7
-            },
-            {
-                name:"Hesap Makinesi",
-                img:"/calculator.png",
-                description:"Basit bir hesap makinesi prototipi. Normal bir hesap makinesinin yapabileceği her şeyi yapan online olarak kullanıma hazır makine.",
-                link1: "https://github.com/sevvalaksoy/s10g1",
-                link2: "https://s10g1.vercel.app/",
-                id: 8
-            },
-            {
-                name:"Ürün Listesi",
-                img:"/products.png",
-                description:"Belirli bir datadan gelen ürünlerin listelendiği ve dilendiği gibi sepete eklenip çıkarılabildiği basit bir alışveriş sayfası prototipi. Ürünler istenildiği kadar sepete eklenip, çıkarılıp ana sayfada gezinilebilir.",
-                link1: "https://github.com/sevvalaksoy/s11g2",
-                link2: "https://s11g2.vercel.app/",
-                id: 9
-            },
-            {
-                name:"Arkadaşlar",
-                img:"/friends.png",
-                description:"Kullanıcı adı ve şifre ile giriş yapılabilecek bir arkadaşlık sayfası. Giriş yapıldıktan sonra şifrenin locale kaydedilği ve daha sonrasında da kullanılmak üzere şifrelendiği arkadaş bilgilerini saklayan bir websitesi. Giriş yapıldıktan sonra şifre çözümü doğru ise içeride gezinebileceğiniz güvenli bir rehber.",
-                link1: "https://github.com/sevvalaksoy/s11g1",
-                link2: "https://s11g1.vercel.app/login",
-                id: 10
-            },
-            {
-                name:"WiKişiler",
-                img:"/wicontacts.png",
-                description:"Basit bir form alanı olan, belirli bir gruba özel hazırlanmış kişiler rehberi. Kullanıcı bilgileri girildikten sonra belirli biir API'ya post olarak gönderilen ve daha sonrasında içerisinde listelenen websitesi.",
-                link1: "https://github.com/sevvalaksoy/s10g4",
-                link2: "https://s10g4.vercel.app/",
-                id: 11
-            },
-            {
-                name:"WiDükkan",
-                img:"/WiStore.png", 
-                description:"Giriş gerektiren bir alışveriş sitesi. Başarılı giriş sağlandıktan sonra içersinde dilediğiniz gibi gezinip alışveriş yapabileceğiniz websitesi.",
-                link1: "https://github.com/sevvalaksoy/s9g3",
-                link2: "https://s9g3.vercel.app/",
-                id: 12
-            },
-            {
-                name:"CRUDs",
-                img:"/CRUD.png",
-                description:"Belirli bir API'den filmlerin datasını çeken ve anasayfasında listeleyen bir websitesi. İçerisinde dilediğiniz filmi favorilerinize ekleyebilir, bunları da anasayfada görünür kılabilirsiniz. Ayrıca istediğiniz başka filmleri de film listesine manuel olarak ekleyebilir ya da dilediğinizi silebilirsiniz.",
-                link1: "https://github.com/sevvalaksoy/s11g3",
-                link2: "https://s11g3.vercel.app/movies",
-                id: 13
-            },
-            
-        ]
     },
     eng: {
         mode: {
@@ -232,6 +118,11 @@ export const data = {
             h22: "About me",
             des1: "Hello! I'm a passionate full-stack developer with a keen eye for detail and a drive for creating efficient and scalable web applications. With a background in both front-end and back-end development, I love bringing ideas to life through code.",
             des2: "I believe in writing code that not only works but is also clean and maintainable. I strive to follow best practices and always aim to write code that my future self and my teammates will thank me for!"
+        },
+        notifications: {
+
+            "success": "Language switch successful!",
+    
         },
         projects: {
             head: "Projects",
